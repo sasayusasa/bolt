@@ -4,62 +4,57 @@
   width: 1100px;
   margin: 0 auto;
 }
-
 .header {
-  width: 100%;
   background-color: #fff;
   position: fixed;
+  width: 100%;
   z-index: 999;
 }
 .header-inner i {
+  float: left;
   font-size: 40px;
   margin-top: 15px;
   margin-bottom: 15px;
-  float: left;
 }
 .header-inner a {
+  background-color: #74cfae;
+  color: #fff;
   display: block;
   float: right;
   font-size: 12px;
-  color: #fff;
-  text-decoration: none;
-  padding: 14px 12px;
-  margin-top: 15px;
-  background-color: #74cfae;
   font-family: Lato;
+  margin-top: 15px;
+  padding: 14px 12px;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 .header-inner a:hover {
   color: #333;
 }
-
 .title {
-  width: 100%;
   background-color: #f2f2f2;
+  width: 100%;
 }
 .title-inner {
   text-align: center;
 }
 .title-inner h1 {
+  color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  color: #74cfae;
-  padding-top: 320px;
-  margin-bottom: 20px;
   font-family: Raleway;
+  margin-bottom: 20px;
+  padding-top: 320px;
 }
 .title-inner p {
-  font-size: 30px;
   color: #c0c0c0;
-  padding-bottom: 250px;
+  font-size: 30px;
   font-family: Raleway;
+  padding-bottom: 250px;
 }
-
 .what-we-can-do {
-  width: 100%;
   background-color: #74cfae;
-  color: #fff;
-  line-height: 30px;
+  width: 100%;
 }
 .what-we-can-do-inner {
   display: table;
@@ -70,33 +65,35 @@
 }
 .what-we-can-do__text {
   display: table-cell;
+  color: #fff;
+  line-height: 30px;
   text-align: center;
   vertical-align: middle;
 }
 .what-we-can-do__text h1 {
   font-size: 24px;
-  margin-bottom: 35px;
   font-family: Raleway;
+  margin-bottom: 35px;
 }
 .what-we-can-do__text p {
   font-size: 20px;
   font-family: Lato;
 }
-
 .our-latest-work {
   background-color: #f2f2f2;
+  width:100%;
 }
 .our-latest-work-inner h1 {
   font-size: 24px;
-  text-align: center;
-  padding-top: 60px;
-  margin-bottom: 40px;
   font-family: Raleway;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  text-align: center;
 }
 .our-latest-work__img:after {
   content: "";
-  display: block;
   clear: both;
+  display: block;
 }
 .our-latest-work__img img {
   float: left;
@@ -123,84 +120,81 @@
 }
 .our-latest-work__text p {
   display: table-cell;
-  text-align: center;
+  font-size: 20px;
+  font-family: Lato;
+  line-height: 30px;
   padding-top: 90px;
   padding-right: 90px;
   padding-bottom: 70px;
-  font-size: 20px;
-  line-height: 30px;
-  font-family: Lato;
+  text-align: center;
 }
 .our-latest-work__text a {
-  display: block;
   background-color: #74cfae;
   color: #fff;
+  display: block;
   font-size: 12px;
+  font-family: Lato;
   padding: 14px 20px;
   text-decoration: none;
-  font-family: Lato;
   transition: all 0.3s ease;
 }
 .our-latest-work__text a:hover {
   color: #333;
 }
-
 .our-skills {
-  width: 100%;
   background-color: #4e4e4e;
+  width: 100%;  
 }
 .our-skills-inner h1 {
+  color: #fff;
+  font-size: 24px;
+  font-family: Raleway;
   padding-top: 70px;
   padding-bottom: 70px;
-  font-size: 24px;
-  color: #fff;
   text-align: center;
-  font-family: Raleway;
 }
 .our-skills__img {
-  display: inline-block;
-  text-align: center;
   color: #fff;
+  display: inline-block;
   margin-right: 180px;
   padding-bottom: 100px;
+  text-align: center;
 }
 .our-skills__img:last-child {
   margin-right: 0;
 }
 .our-skills__img p {
-  margin-top: 20px;
   font-size: 16px;
   font-family: Lato;
+  margin-top: 20px;
 }
-
 .sns {
-  width: 100%;
   background-color: #f2f2f2;
+  width: 100%;
 }
 .sns-inner {
   text-align: center;
 }
 .sns-inner i {
+  color: #74cfae;
   width: 185px;
   font-size: 40px;
-  padding: 40px;
   margin-top: 200px;
   margin-bottom: 200px;
-  color: #74cfae;
+  padding: 40px;
   transition: all 0.3s ease;
 }
 .sns-inner i:hover {
   background-color: #fff;
 }
-
 .footer {
-  width: 100%;
   background-color: #74cfae;
+  width: 100%;
 }
 .footer-inner {
   color: #fff;
-  text-align: right;
+  font-family: Lato;
   padding-top: 20px;
   padding-bottom: 25px;
-  font-family: Lato;
+  text-align: right;
 }
