@@ -225,17 +225,20 @@
     width: 920px;
   }
   .our-latest-work__img a {
-    float: none;
-    margin-left: 0;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
   }
   .our-latest-work__img a:nth-child(n+4) {
     margin-top: 0;
   }
   .our-latest-work__img a:nth-child(3n+1) {
     margin-top: 80px;
+    margin-left: auto;
   }
   .our-latest-work__text {
     margin-top: 80px;
