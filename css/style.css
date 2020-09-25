@@ -13,16 +13,20 @@
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 .header-inner {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.header-inner i {
+.fa-bolt {
   float: left;
-  font-size: 40px;
+  font-size: 50px;
 }
-.header-inner a {
+.fa-bars {
+  display: none;
+}
+.header-button {
   background-color: #74cfae;
   color: #fff;
   float: right;
@@ -32,7 +36,7 @@
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.header-inner a:hover {
+.header-button:hover {
   color: #333;
 }
 .title {
@@ -177,7 +181,7 @@
 }
 .sns-inner a {
   color: #74cfae;
-  display: inline-block;;
+  display: inline-block;
   font-size: 50px;
   padding-top:20px;
   padding-bottom: 20px;
@@ -196,4 +200,102 @@
   padding-top: 20px;
   padding-bottom: 25px;
   text-align: right;
+}
+
+@media screen and (max-width:1199px){
+  .inner {
+    width: 97%;
+  }
+  .what-we-can-do-inner {
+    padding-bottom: 25px;
+  }
+  .what-we-can-do-inner img {
+    float: none;
+    margin-left: 0;
+  }
+  .what-we-can-do__text {
+    float: none;
+  }
+  .what-we-can-do__text h2 {
+    margin-top: 20px;
+  }
+  .what-we-can-do__text p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 920px;
+  }
+  .our-latest-work__img a {
+    float: none;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-latest-work__img a:nth-child(n+4) {
+    margin-top: 0;
+  }
+  .our-latest-work__img a:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+  .our-latest-work__text {
+    margin-top: 80px;
+  }
+  .our-latest-work__text p {
+    display: block;
+    width: 100%;
+  }
+  .our-latest-work__text a {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 20px;
+    width: 100px;
+  }
+  .our-skills__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .our-skills__img:nth-child(n+2) {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .header-button {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .title-inner {
+    padding-top: 242px;
+    padding-bottom: 130px;
+    width: 300px;
+  }
+  .title-inner h1 {
+    font-size: 80px;
+  }
+  .what-we-can-do__text p {
+    width: 350px;
+  }
+  .our-latest-work__text p {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sns-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sns-inner a {
+    width: 100%;
+  }
 }
