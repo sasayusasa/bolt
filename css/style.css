@@ -64,6 +64,10 @@
   padding-top: 50px;
   text-align: center;
 }
+.what-we-can-do-inner img {
+  float: left;
+  margin-left: 100px;
+}
 .what-we-can-do__text {
   float: right;
 }
@@ -76,6 +80,7 @@
   font-family: Lato;
   line-height: 30px;
   margin-top: 35px;
+  width: 650px;
 }
 .our-latest-work {
   background-color: #f2f2f2;
@@ -90,15 +95,16 @@
   font-family: Raleway;
   text-align: center;
 }
+.our-latest-work__img {
+  margin-top: 40px;
+}
 .our-latest-work__img a {
   float: left;
-  margin-top: 40px;
   margin-left: 100px;
   opacity : 0.7;
   transition: all 0.3s ease;
 }
-.our-latest-work__img a:first-child,
-.our-latest-work__img a:nth-child(3n+4) {
+.our-latest-work__img a:nth-child(3n+1) {
   margin-left: 0;
 }
 .our-latest-work__img a:nth-child(n+4) {
@@ -116,6 +122,7 @@
   font-size: 20px;
   font-family: Lato;
   line-height: 30px;
+  width: 580px;
 }
 .our-latest-work__text a {
   background-color: #74cfae;
@@ -145,12 +152,14 @@
   font-size: 24px;
   font-family: Raleway;
 }
+.our-skills__img__box {
+  margin-top: 70px;
+}
 .our-skills__img {
   display: inline-block;
-  margin-top: 70px;
   margin-left: 180px;
 }
-.our-skills__img:nth-child(2) {
+.our-skills__img:first-child {
   margin-left: 0;
 }
 .our-skills__img p {
