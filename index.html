@@ -13,41 +13,43 @@
     <meta name="keyword" content="bolt, bootstrap, portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="inner header-inner clearfix">
         <i class="fas fa-bolt"></i>
         <a class="header-button" href="">Contact</a>
-        <i class="fas fa-bars"></i>
+        <a class="header-hamburger" href="">
+          <div class="header-hamburger__line"></div>
+        </a>
       </div>
     </header>
-    <main>
+    <main class="main">
       <div class="title">
         <div class="inner title-inner">
-          <h1>Bolt Theme</h1>
-          <p>FREE BOOTSTRAP THEMES</p>
+          <h1 class="font-type-a">Bolt Theme</h1>
+          <p class="font-type-a">FREE BOOTSTRAP THEMES</p>
         </div>
       </div>
       <section class="what-we-can-do">
         <div class="inner what-we-can-do-inner clearfix">
           <img src="img\iphone.png" alt="">
           <div class="what-we-can-do__text">
-            <h2>WHAT WE CAN DO?</h2>
+            <h2 class="font-type-a">WHAT WE CAN DO?</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div>
       </section>
       <article class="our-latest-work">
         <div class="inner our-latest-work-inner">
-          <h2>OUR LATEST WORK</h2>
-          <div class="our-latest-work__img clearfix">
-            <a href=""><img src="img/01.jpg" alt=""></a>
-            <a href=""><img src="img/02.jpg" alt=""></a>
-            <a href=""><img src="img/03.jpg" alt=""></a>
-            <a href=""><img src="img/04.jpg" alt=""></a>
-            <a href=""><img src="img/05.jpg" alt=""></a>
-            <a href=""><img src="img/06.jpg" alt=""></a>
-          </div>
+          <h2 class="font-type-a">OUR LATEST WORK</h2>
+          <ul class="our-latest-work__img clearfix">
+            <li><a href=""><img src="img/01.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/02.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/03.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/04.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/05.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/06.jpg" alt=""></a></li>
+          </ul>
           <div class="our-latest-work__text">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
             <a href="">Email Me!</a>
@@ -56,34 +58,34 @@
       </article>
       <section class="our-skills">
         <div class="inner our-skills-inner">
-          <h2>OUR SKILLS</h2>
-          <div class="our-skills__img__box">
-            <div class="our-skills__img">
+          <h2 class="font-type-a">OUR SKILLS</h2>
+          <ul class="our-skills__img__box">
+            <li>
               <img src="img/circle_01.png" alt="">
               <p>JavaScript</p>
-            </div>
-            <div class="our-skills__img">
+            </li>
+            <li>
               <img src="img/circle_02.png" alt="">
               <p>Bootstrap</p>
-            </div>
-            <div class="our-skills__img">
+            </li>
+            <li>
               <img src="img/circle_03.png" alt="">
               <p>WordPress</p>
-            </div>
-            <div class="our-skills__img">
+            </li>
+            <li>
               <img src="img/circle_04.png" alt="">
               <p>Photshop</p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>   
       </section>
       <nav class="sns">
-        <div class="inner sns-inner">
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fas fa-basketball-ball"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fas fa-envelope"></i></a>
-        </div>
+        <ul class="inner sns-inner">
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fas fa-envelope"></i></a></li>
+        </ul>
       </nav>
     </main>
     <footer class="footer">

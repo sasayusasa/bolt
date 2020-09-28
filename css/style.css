@@ -5,6 +5,12 @@
   clear: both;
   display: block;
 }
+.body {
+  font-family: Lato;
+}
+.font-type-a {
+  font-family: Raleway;
+}
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -16,22 +22,18 @@
   z-index: 999;
 }
 .header-inner {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 .fa-bolt {
+  color: #4e4e4e;
   float: left;
   font-size: 50px;
-}
-.fa-bars {
-  display: none;
 }
 .header-button {
   background-color: #74cfae;
   color: #fff;
   float: right;
   font-size: 12px;
-  font-family: Lato;
   padding: 14px 12px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -39,24 +41,24 @@
 .header-button:hover {
   color: #333;
 }
+.main {
+  padding-top: 80px;
+}
 .title {
   background-color: #f2f2f2;
 }
 .title-inner {
   text-align: center;
-  padding-top: 320px;
-  padding-bottom: 250px;
+  padding: 250px 0 250px;
 }
 .title-inner h1 {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  font-family: Raleway;
 }
 .title-inner p {
   color: #c0c0c0;
   font-size: 30px;
-  font-family: Raleway;
   margin-top: 20px;
 }
 .what-we-can-do {
@@ -70,18 +72,16 @@
 }
 .what-we-can-do-inner img {
   float: left;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 .what-we-can-do__text {
   float: right;
 }
 .what-we-can-do__text h2 {
   font-size: 24px;
-  font-family: Raleway;
 }
 .what-we-can-do__text p {
   font-size: 20px;
-  font-family: Lato;
   line-height: 30px;
   margin-top: 35px;
   width: 650px;
@@ -91,30 +91,28 @@
 }
 .our-latest-work-inner {
   font-size: 0;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px;
 }
 .our-latest-work-inner h2 {
   font-size: 24px;
-  font-family: Raleway;
   text-align: center;
 }
 .our-latest-work__img {
   margin-top: 40px;
 }
-.our-latest-work__img a {
+.our-latest-work__img li {
   float: left;
   margin-left: 100px;
   opacity : 0.7;
   transition: all 0.3s ease;
 }
-.our-latest-work__img a:nth-child(3n+1) {
+.our-latest-work__img li:nth-child(3n+1) {
   margin-left: 0;
 }
-.our-latest-work__img a:nth-child(n+4) {
+.our-latest-work__img li:nth-child(n+4) {
   margin-top: 80px;
 }
-.our-latest-work__img a:hover {
+.our-latest-work__img li:hover {
   opacity : 1;
 }
 .our-latest-work__text {
@@ -124,7 +122,6 @@
 .our-latest-work__text p {
   display: inline-block;
   font-size: 20px;
-  font-family: Lato;
   line-height: 30px;
   width: 580px;
 }
@@ -133,7 +130,6 @@
   color: #fff;
   display: inline-block;
   font-size: 12px;
-  font-family: Lato;
   margin-left: 90px;
   padding: 14px 20px;
   text-decoration: none;
@@ -148,47 +144,46 @@
 }
 .our-skills-inner {
   color: #fff;
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding: 70px 0 100px;
   text-align: center;
 }
 .our-skills-inner h2 {
   font-size: 24px;
-  font-family: Raleway;
 }
 .our-skills__img__box {
   margin-top: 70px;
 }
-.our-skills__img {
+.our-skills__img__box li {
   display: inline-block;
   margin-left: 180px;
 }
-.our-skills__img:first-child {
+.our-skills__img__box li:first-child {
   margin-left: 0;
 }
-.our-skills__img p {
+.our-skills__img__box li p {
   font-size: 16px;
-  font-family: Lato;
   margin-top: 20px;
 }
 .sns {
   background-color: #f2f2f2;
+  font-size: 0;
 }
 .sns-inner {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  font-size: 0;
+  padding: 200px 0;
   text-align: center;
 }
-.sns-inner a {
-  color: #74cfae;
+.sns-inner li {
   display: inline-block;
-  font-size: 50px;
-  padding-top:20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   transition: all 0.3s ease;
   width: 185px;
 }
-.sns-inner a:hover {
+.sns-inner li a {
+  color: #74cfae;
+  font-size: 50px;
+}
+.sns-inner li:hover {
   background-color: #fff;
 }
 .footer {
@@ -196,9 +191,7 @@
 }
 .footer-inner {
   color: #fff;
-  font-family: Lato;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding: 20px 0 25px;
   text-align: right;
 }
 
@@ -211,7 +204,7 @@
   }
   .what-we-can-do-inner img {
     float: none;
-    margin-left: 0;
+    padding-left: 0;
   }
   .what-we-can-do__text {
     float: none;
@@ -220,47 +213,44 @@
     margin-top: 20px;
   }
   .what-we-can-do__text p {
-    margin-right: auto;
-    margin-left: auto;
-    width: 920px;
+    margin-top: 35px;
+    display: inline-block;
+    width: 700px;
   }
-  .our-latest-work__img a {
+  .our-latest-work__img li {
     align-items: center;
     display: flex;
     flex-direction: column;
     float: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 300px;
   }
-  .our-latest-work__img a:nth-child(n+4) {
+  .our-latest-work__img li:nth-child(3n+1) {
+    margin-left: auto;
+  }
+  .our-latest-work__img li:nth-child(n+4) {
     margin-top: 0;
   }
-  .our-latest-work__img a:nth-child(3n+1) {
+  .our-latest-work__img li:nth-child(4n) {
     margin-top: 80px;
-    margin-left: auto;
   }
   .our-latest-work__text {
     margin-top: 80px;
   }
   .our-latest-work__text p {
-    display: block;
     width: 100%;
   }
   .our-latest-work__text a {
     display: block;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 0;
     padding: 14px 20px;
     width: 100px;
   }
-  .our-skills__img {
+  .our-skills__img__box li {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
-  .our-skills__img:nth-child(n+2) {
+  .our-skills__img__box li:nth-child(n+2) {
     margin-top: 88px;
   }
 }
@@ -269,19 +259,35 @@
   .header-button {
     display: none;
   }
-  .fa-bars {
-    display: block;
+  .header-hamburger {
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 30px;
     float: right;
+    height: 20px;
     padding: 10px;
-    text-decoration: none;
+    position: relative;
+    width: 30px;
+  }
+  .header-hamburger__line,
+  .header-hamburger__line::before,
+  .header-hamburger__line::after {
+    background: #ddd;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 30px;
+  }
+  .header-hamburger__line::before {
+    top: 9px;
+  }
+  .header-hamburger__line::after {
+    top: 18px;
   }
   .title-inner {
-    padding-top: 242px;
-    padding-bottom: 130px;
-    width: 300px;
+    padding: 160px 0 130px;
+    width: 350px;
   }
   .title-inner h1 {
     font-size: 80px;
@@ -291,14 +297,12 @@
   }
   .our-latest-work__text p {
     width: 350px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
   .sns-inner {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0;
   }
-  .sns-inner a {
+  .sns-inner li {
     width: 100%;
   }
 }
